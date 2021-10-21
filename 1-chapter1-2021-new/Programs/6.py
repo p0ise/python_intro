@@ -70,7 +70,7 @@ def draw_shape4(distance=100):
     draw_angle(5, distance)
 
 def main():
-    draw_shape4(80)
+    pass
     input("Press any key to continue...")
 
 if __name__=="__main__":
