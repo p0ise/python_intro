@@ -54,7 +54,7 @@ def main():
         turtle.setheading(turtle.towards(big_star_center))
         draw_angle(small_star_radius)
     
-    input("Press any key to continue...")
+    input("Press an Enter to continue...")
 
 
 if __name__ == "__main__":
