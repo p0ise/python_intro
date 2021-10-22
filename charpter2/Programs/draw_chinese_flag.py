@@ -22,7 +22,7 @@ def draw_angle(radius):
 
 def main():
     # unit length for the flag 
-    STD_UNIT = 20
+    STD_UNIT = 12
 
     height = 20*STD_UNIT
     width = 30*STD_UNIT
