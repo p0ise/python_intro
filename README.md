@@ -4,4 +4,5 @@ This repository contains assignments for the course taught by Li Ya in SWU. If y
 
 The following has been already finished:
 
-- LY--1--chapter1--2021--new
+- charpter1
+- charpter2
