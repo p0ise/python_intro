@@ -2,7 +2,7 @@
 
 This repository contains assignments for the course taught by Li Ya in SWU. If you want to refer to my work, please star this repository or follow me.
 
-The following has been already finished:
+- [x] charpter1
+- [x] charpter2
+- [x] charpter5
 
-- charpter1
-- charpter2
