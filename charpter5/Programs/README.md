@@ -2,7 +2,7 @@
 
 #### 1. hail_number.py
 
-![image-20211108211942603](README.assets/image-20211108211942603.png)
+![image-20211108213956184](README.assets/image-20211108213956184.png)
 
 #### 2. pwd_validator.py
 
