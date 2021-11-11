@@ -71,7 +71,7 @@ def draw_shape4(distance=100):
 
 def main():
     pass
-    input("Press any key to continue...")
+    input("Press Enter to continue...")
 
 if __name__=="__main__":
     main()

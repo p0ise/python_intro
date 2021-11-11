@@ -10,9 +10,9 @@ LEN_X = 300
 LEN_Y = 300
 # the unit for x-y axis
 UNIT_X = LEN_X/4
-UNIT_Y = LEN_Y/4
+UNIT_Y = LEN_Y/2
 # the BOUNDARY of function graph
-BOUNDARY = LEN_X//STEP_X*STEP_X/2
+BOUNDARY = LEN_X//STEP_X*STEP_X*2/3
 FONT = ("Times New Roman", 20, "italic")
 
 
@@ -73,10 +73,10 @@ def main():
     while cnt<LEN_X/UNIT_X:
         turtle.goto(cnt*UNIT_X, 0)
         turtle.dot()
-        turtle.write(cnt, font=FONT)
+        turtle.write("%d\u03c0"%cnt, font=FONT)
         turtle.goto(-cnt*UNIT_X, 0)
         turtle.dot()
-        turtle.write(-cnt, font=FONT)
+        turtle.write("%d\u03c0"%-cnt, font=FONT)
         cnt += 1
 
     cnt = 1
@@ -89,19 +89,33 @@ def main():
         turtle.write(-cnt, font=FONT)
         cnt += 1
 
-    # draw the quadratic function
+    # draw the sine function
+    turtle.pencolor("blue")
     pos_x = -BOUNDARY
-    pos_y = UNIT_Y*(pos_x/UNIT_X)**2
+    pos_y = UNIT_Y*math.sin(pos_x/UNIT_X*math.pi)
     turtle.goto(pos_x, pos_y)
     turtle.pendown()
     pos_x += STEP_X
     while pos_x<=BOUNDARY:
-        pos_y = UNIT_Y*(pos_x/UNIT_X)**2
+        pos_y = UNIT_Y*math.sin(pos_x/UNIT_X*math.pi)
         turtle.goto(pos_x, pos_y)
         pos_x += STEP_X
     turtle.penup()
 
-    input("Press an Enter to continue...")
+    # draw the cosine function
+    turtle.pencolor("red")
+    pos_x = -BOUNDARY
+    pos_y = UNIT_Y*math.cos(pos_x/UNIT_X*math.pi)
+    turtle.goto(pos_x, pos_y)
+    turtle.pendown()
+    pos_x += STEP_X
+    while pos_x<=BOUNDARY:
+        pos_y = UNIT_Y*math.cos(pos_x/UNIT_X*math.pi)
+        turtle.goto(pos_x, pos_y)
+        pos_x += STEP_X
+    turtle.penup()
+
+    input("Press Enter to continue...")
     
 
 
