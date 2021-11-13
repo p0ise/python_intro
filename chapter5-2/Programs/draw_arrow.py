@@ -46,7 +46,7 @@ def main():
                    arrow_length*math.sin(angle)))
 
     # exit message
-    print("Press Enter to continue...")
+    input("Press Enter to continue...")
 
 
 if __name__ == "__main__":
