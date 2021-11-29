@@ -6,7 +6,7 @@ This repository contains assignments for the course taught by Li Ya in SWU. If y
 - [x] chapter2
 - [x] chapter5-1
 - [x] chapter5-2
-- [ ] chapter6 - Building
+- [x] chapter6
 - [x] assignment1
-- [ ] assignment2
+- [ ] assignment2 - Building
 - [x] lab1
