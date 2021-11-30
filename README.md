@@ -8,5 +8,5 @@ This repository contains assignments for the course taught by Li Ya in SWU. If y
 - [x] chapter5-2
 - [x] chapter6
 - [x] assignment1
-- [ ] assignment2 - Building
+- [x] assignment2
 - [x] lab1
