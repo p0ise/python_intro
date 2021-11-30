@@ -17,7 +17,7 @@ for ch in data:
         else:
             frequency[ch] = 1
 
-# i think the more the letter appears, the greater its impact
+# i think the more the letter appears, the greater its impact is
 # so i traverse them first
 pripority = [k for k, v in sorted(frequency.items(), key=lambda x:x[1])]
 answers = []
