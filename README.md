@@ -10,3 +10,4 @@ This repository contains assignments for the course taught by Li Ya in SWU. If y
 - [x] assignment1
 - [x] assignment2
 - [x] lab1
+- [x] lab2
